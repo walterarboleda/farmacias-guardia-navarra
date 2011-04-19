@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  
+        <CheckBoxPreference
+                android:key="satellite"
+                android:title="@string/preferences_satellite"
+                android:summary="@string/preferences_satellite_summary"
+                android:defaultValue="false"/>
+
+        <CheckBoxPreference
+                android:key="fullscreen"
+                android:title="@string/preferences_fullscreen"
+                android:summary="@string/preferences_fullscreen_summary"
+                android:defaultValue="false"/>
+   
+</PreferenceScreen>

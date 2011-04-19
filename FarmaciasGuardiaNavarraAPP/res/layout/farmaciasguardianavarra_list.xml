@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res/com.mobialia.wikiplaces"
+
+ android:id="@+id/mainlayout"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent" >
+
+<LinearLayout style="@style/ActionBar">
+ <ImageButton style="@style/ActionBarAction"
+  android:src="@drawable/actionbar_back"
+  android:onClick="onBackAction" />
+ <ImageView style="@style/ActionBarSeparator" />
+ <TextView android:id="@+id/Title" 
+  style="@style/ActionBarText"
+  android:text="@string/list"/>
+ <ImageView style="@style/ActionBarSeparator" />
+ <ImageButton style="@style/ActionBarAction"
+  android:src="@drawable/actionbar_preferences"
+  android:onClick="onPreferencesAction" />
+</LinearLayout>
+
+<ListView android:id="@id/android:list"
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent"
+ android:layout_weight="1"
+ android:drawSelectorOnTop="false"
+ android:background="@color/background"
+ android:cacheColorHint="#00000000" 
+/>
+
+
+</LinearLayout>

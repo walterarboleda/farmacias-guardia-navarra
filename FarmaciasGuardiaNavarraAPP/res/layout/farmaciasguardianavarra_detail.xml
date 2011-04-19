@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.mobialia.wikiplaces"
+	android:id="@+id/mainlayout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout style="@style/ActionBar">
+		<ImageButton style="@style/ActionBarAction" android:src="@drawable/actionbar_back"
+			android:onClick="onBackAction" />
+		<ImageView style="@style/ActionBarSeparator" />
+		<TextView style="@style/ActionBarText" android:text="@string/detail" />
+		<ImageView style="@style/ActionBarSeparator" />
+		<ImageButton style="@style/ActionBarAction" android:src="@drawable/actionbar_preferences"
+			android:onClick="onPreferencesAction" />
+	</LinearLayout>
+
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+
+
+		<TableLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:shrinkColumns="1">
+
+			<TableRow android:layout_margin="2dip">
+				<TextView style="@style/Detail" android:id="@+id/Farmacia" android:text="Farmacia" android:layout_gravity="center_horizontal"/>
+			</TableRow>
+			
+			<TableRow android:layout_margin="2dip">
+				<TextView style="@style/DetailBold" android:text="@string/detail_Telefono"/>
+				<TextView style="@style/Detail" android:id="@+id/Telefono" android:text="Telefono" android:autoLink="phone"/>
+			</TableRow>
+			
+			<TableRow android:layout_margin="2dip">
+				<TextView style="@style/DetailBold" android:text="@string/detail_Direccion"/>
+				<TextView style="@style/Detail" android:id="@+id/Direccion" android:text="Direccion"/>
+			</TableRow>
+			
+			<TableRow android:layout_margin="2dip">
+				<TextView style="@style/DetailBold" android:text="@string/detail_Localidad"/>
+				<TextView style="@style/Detail" android:id="@+id/Localidad" android:text="Localidad"/>
+			</TableRow>
+			
+			<TableRow android:layout_margin="2dip">
+				<TextView style="@style/DetailBold" android:text="@string/detail_Horario"/>
+				<TextView style="@style/Detail" android:id="@+id/Horario" android:text="Horario"/>
+			</TableRow>
+			
+			
+		</TableLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="10dip">
+			<Button style="@style/DetailDashBoardAction" android:drawableTop="@drawable/dashboard_map"
+				android:text="@string/dashboard_map" android:onClick="onMapAction" />
+
+
+			<Button style="@style/DetailDashBoardAction" android:drawableTop="@drawable/dashboard_navigate"
+				android:text="@string/dashboard_navigate" android:onClick="onNavigateAction" />
+		</LinearLayout>
+	</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
