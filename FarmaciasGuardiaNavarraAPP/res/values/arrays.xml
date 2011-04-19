@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string-array name="distances_texts">
+        <item>At 5 Km</item>
+        <item>At 10 Km</item>
+        <item>At 15 Km</item>
+        <item>At 20 Km</item>
+    </string-array>
+    
+    <string-array name="distances_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

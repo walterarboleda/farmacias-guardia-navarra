@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res/com.mobialia.wikiplaces"
+
+ android:id="@+id/mainlayout"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent" >
+
+<LinearLayout style="@style/ActionBar">
+ <ImageButton style="@style/ActionBarAction"
+  android:src="@drawable/actionbar_back"
+  android:onClick="onBackAction" />
+ <ImageView style="@style/ActionBarSeparator" />
+ <TextView  style="@style/ActionBarText"
+  android:text="@string/map"/>
+ <ImageView style="@style/ActionBarSeparator" />
+ <ImageButton style="@style/ActionBarAction"
+  android:src="@drawable/actionbar_preferences"
+  android:onClick="onPreferencesAction" />
+</LinearLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:clickable="true"        
+        android:apiKey="0YFBU9yv8IXklKx6FzqOUiwphXKjHDnmRWsWrlw"
+        
+    />
+    <!-- dev: android:apiKey="0ty0JlR1lTjC5kB1dCPHOPbNscmPlSKGDA1KQug" -->
+    <!-- prod: android:apiKey="0ty0JlR1lTjCKCDiFvhd_JNj6gwU0L_OuIdzLDQ" -->
+
+
+</LinearLayout>

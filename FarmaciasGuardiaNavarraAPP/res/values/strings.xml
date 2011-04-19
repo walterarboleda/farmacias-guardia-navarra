@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pharmacies in turn</string>
+    
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="dashboard_map">Map</string>
+    <string name="dashboard_list">List</string>
+    <string name="dashboard_preferences">Settings</string>
+    <string name="dashboard_refresh">Refresh</string>
+    <string name="dashboard_web">Web</string>
+    <string name="dashboard_navigate">Navigate</string>
+    
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="detail">Detail</string>
+
+    <string name="geonames_lang">en</string>
+    
+    <string name="tap_again_details">Tap again for details</string>
+    
+    <string name="menu_my_location">Go to my Location</string>
+
+    <string name="loading">Loading data...</string>
+
+	<string name="error">Error</string>
+    <string name="error_location">Your location couldn\'t be determined, please enable a location method on the preferences</string>
+    <string name="error_data">Could not retrieve data, please check your internet connection and try later</string>
+    
+    <string name="detail_Farmacia">Pharmacy:</string>
+    <string name="detail_Telefono">Phone:</string>
+    <string name="detail_Direccion">Address:</string>
+    <string name="detail_Horario">Hours:</string>
+        <string name="detail_Localidad">City:</string>
+    
+    <string name="preferences">Settings</string>
+
+    <string name="preferences_distance">Places to Show</string>
+    <string name="preferences_distance_summary">Show at X Km from your position</string>
+    
+    <string name="preferences_satellite">Satellite Map</string>
+    <string name="preferences_satellite_summary">Show satellite map</string>
+    
+    <string name="preferences_fullscreen">Fullscreen</string>
+    <string name="preferences_fullscreen_summary">Show app in fullscreen</string>
+</resources>

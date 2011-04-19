@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res/com.mobialia.wikiplaces"
+ android:id="@+id/mainlayout"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="@color/background"
+>
+
+<LinearLayout style="@style/ActionBar">
+ <TextView  style="@style/ActionBarText" android:text="@string/app_name"/>
+ <ImageView style="@style/ActionBarSeparator" />
+ <ImageButton style="@style/ActionBarAction"
+  android:src="@drawable/actionbar_preferences"
+  android:onClick="onPreferencesAction" />
+</LinearLayout>
+
+<LinearLayout style="@style/DashBoardTable">
+<LinearLayout  style="@style/DashBoardRow">
+ <Button style="@style/DashBoardAction"
+  android:drawableTop="@drawable/dashboard_map"
+  android:text="@string/dashboard_map"
+  android:onClick="onMapAction"
+ />
+ <Button style="@style/DashBoardAction"
+  android:drawableTop="@drawable/dashboard_list"
+  android:text="@string/dashboard_list"
+  android:onClick="onListAction"
+ />
+</LinearLayout>
+<LinearLayout  style="@style/DashBoardRow">
+ <Button style="@style/DashBoardAction"
+  android:drawableTop="@drawable/dashboard_refresh"
+  android:text="@string/dashboard_refresh"
+  android:onClick="onRefreshAction"
+ />
+ <Button style="@style/DashBoardAction"
+  android:drawableTop="@drawable/dashboard_preferences"
+  android:text="@string/dashboard_preferences"
+  android:onClick="onPreferencesAction"
+ />
+</LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
