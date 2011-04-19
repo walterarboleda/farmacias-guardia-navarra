@@ -1,3 +1,5 @@
+=== Descripción ===
+
 Esta aplicación recupera desde los datos de openData Navarra las farmacias de guardia.
 
 A continuación busca de entre las farmacias recuperadas las que en este momento están de guardia y las geoposiciona usando los servicios de google Maps.
