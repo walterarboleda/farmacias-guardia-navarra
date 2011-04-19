@@ -1,16 +1,40 @@
-#summary One-sentence summary of this page.
+#summary Manual de Usuario
 
-= Introduction =
+Al acceder a la aplicación nos encontraremos con un menú con cuatro iconos:
 
-http://code.google.com/p/farmacias-guardia-navarra/source/browse/wiki/MainMenu.PNG
+<table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/kKFbPViwp-CbSNccCRIVYQ?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/_OnjNC1gvOvw/Ta1r8aOZTwI/AAAAAAAAAEM/rYN0F7Zm52w/s400/MainMenu.PNG" height="400" width="314" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="https://picasaweb.google.com/113686581140285712039/FarmaciasGuardiaNavarra?feat=embedwebsite">FarmaciasGuardiaNavarra</a></td></tr></table>
+
+En esta pantalla tenemos cuatro opciones:
+
+  ===Acceder al mapa con la geolocalizacion de las farmacias.===
+
+<table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/2ElKWgyatylRorzSzMPu-A?feat=embedwebsite"><img src="https://lh5.googleusercontent.com/_OnjNC1gvOvw/Ta1r72Ns0rI/AAAAAAAAAEA/ThyO-Ddwy90/s400/mapa.PNG" height="400" width="262" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="https://picasaweb.google.com/113686581140285712039/FarmaciasGuardiaNavarra?feat=embedwebsite">FarmaciasGuardiaNavarra</a></td></tr></table>
+
+Al pulsar sobre este botón encontraremos un mapa con nuestra localización y las farmacias que tenemos de guardia alrededor, al pulsar sobre una farmacia podremos acceder a los detalles de la misma (pantalla descrita al final de esta pagina).
+
+  ===Acceder a una lista de farmacias de guardia ordenadas por localidad.===
+
+<table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/SOt9TY5agMCtyurc6gUf_A?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/_OnjNC1gvOvw/Ta1r8WV0Z_I/AAAAAAAAAEI/hyylHH65dTM/s400/Lista.PNG" height="400" width="260" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="https://picasaweb.google.com/113686581140285712039/FarmaciasGuardiaNavarra?feat=embedwebsite">FarmaciasGuardiaNavarra</a></td></tr></table>
+
+Esta pantalla nos mostrara una lista de farmacias ordenadas por localidad y al pulsar sobre una de ellas podremos acceder a los detalles de la misma (pantalla descrita al final de esta pagina).
 
 
-= Details =
+  ===Actualizar los datos de las farmacias de guardia.===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Este botón nos permitirá actualizar los datos de las farmacias, solo lo necesitaremos en casos de mantener el programa abierto durante varios días o casos excepcionales como por ejemplo al obtener acceso a Internet, después de abrir la aplicación.
+
+  ===Acceder a las opciones de configuración.===
+
+<table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/xyy5Dais5k9Ss7eOb39JpQ?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/_OnjNC1gvOvw/Ta1r7RGN7cI/AAAAAAAAAD4/nM2n8pUam-8/s400/configuracion.PNG" height="359" width="400" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="https://picasaweb.google.com/113686581140285712039/FarmaciasGuardiaNavarra?feat=embedwebsite">FarmaciasGuardiaNavarra</a></td></tr></table>
+
+Esta pantalla nos permitirá seleccionar si queremos ver el mapa como satélite o mapa normal y si queremos ver la aplicación a pantalla completa o no.
 
 
-http://code.google.com/p/support/wiki/WikiSyntax#HTML_support
+
+
+
+
+
+
+
+<table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/VJhAnRXIQmlvWjSD-mQr4Q?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/_OnjNC1gvOvw/Ta1r8ENOt8I/AAAAAAAAAEE/v3ZX7oAWDn0/s400/detalles.PNG" height="400" width="348" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="https://picasaweb.google.com/113686581140285712039/FarmaciasGuardiaNavarra?feat=embedwebsite">FarmaciasGuardiaNavarra</a></td></tr></table>
