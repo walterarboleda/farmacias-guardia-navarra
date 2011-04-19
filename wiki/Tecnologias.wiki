@@ -1,0 +1,29 @@
+#summary Descripción tecnológica..
+
+==Descripción tecnológica.==
+
+Este proyecto esta desarrollado con el lenguaje JAVA, usando la API de Google para el sistema operativo Android, diseñado para teléfonos móviles y tablets, siendo el sistema operativo para teléfonos móviles inteligentes (smartphones) mas extendido en el mercado actual. Para obtener los datos se usan los servicios de localización de direcciones de Google y los servicios OpenData de Navarra.
+
+===Java ===
+Java Platform, Enterprise Edition (Java EE) es el estándar industrial para el desarrollo de portátiles, robustas, escalables y seguras en el servidor de aplicaciones Java. Basándose en la sólida base de Java SE, Java EE proporciona servicios Web, modelo de componentes, la gestión, y las API de comunicaciones que la convierten en el estándar de la industria para la aplicación de la arquitectura de clase empresarial orientada a servicios (SOA) y aplicaciones Web 2.0. 
+
+
+===Android.===
+
+Android es un sistema operativo basado en Linux para dispositivos móviles, como teléfonos inteligentes y tablets. Fue desarrollado inicialmente por Android Inc., una firma comprada por Google en 2005.6 Es el principal producto de la Open Handset Alliance, un conglomerado de fabricantes y desarrolladores de hardware, software y operadores de servicio.7 Las unidades vendidas de teléfonos inteligentes con Android se ubican en el primer puesto en los Estados Unidos, en el segundo y tercer trimestres de 2010,8 9 10 con una cuota de mercado de 43,6% en el tercer trimestre.11
+Android tiene una gran comunidad de desarrolladores escribiendo aplicaciones para extender la funcionalidad de los dispositivos. A la fecha, existen cerca de 200.000 aplicaciones disponibles para Android.12 13 Android Market es la tienda de aplicaciones en línea administrada por Google, aunque existe la posibilidad de obtener software externamente. Los programas están escritos en el lenguaje de programación Java.14
+ Actualmente Android posee el 32,9% de cuota de mercado a escala mundial de los teléfonos inteligentes, por delante de Symbian OS que tiene 30,6%. En tercer lugar se sitúa Apple con cuota de mercado del 16%.
+
+===SmartPhones. ===
+
+El teléfono inteligente (smartphone en inglés) es un término comercial para denominar a un teléfono móvil que ofrece más funciones que un teléfono celular común.
+
+===Google APIS. ===
+
+Google Maps dispone de una amplia matriz de API que permite al usuario insertar las funciones más completas y la utilidad diaria de Google Maps en su propio sitio web y en sus propias aplicaciones, así como superponer sus propios datos sobre ellas.
+
+Esta API se compone básicamente de servicios web y en nuestra aplicación la usaremos para posicionar en el mapa las direcciones de las farmacias.
+
+===Servicios OpenData Navarra.===
+
+Open Data es una iniciativa mundial que pretende que los datos e información de las Administraciones Públicas se expongan y hagan accesibles de forma que estén disponibles para su redistribución, reutilización y aprovechamiento por parte de los ciudadanos y las empresas.
