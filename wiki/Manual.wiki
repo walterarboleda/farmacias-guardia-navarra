@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+http://code.google.com/p/farmacias-guardia-navarra/source/browse/wiki/MainMenu.PNG
 
 
 = Details =
