@@ -1,5 +1,8 @@
 #summary Manual de Usuario
 
+===Requisitos====
+Android 1.6 o superior
+
 ===Inicio===
 
 Al acceder a la aplicación nos encontraremos con un menú con cuatro iconos:
@@ -38,4 +41,3 @@ Esta pantalla nos permitirá seleccionar si queremos ver el mapa como satélite 
 <table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/VJhAnRXIQmlvWjSD-mQr4Q?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/_OnjNC1gvOvw/Ta1r8ENOt8I/AAAAAAAAAEE/v3ZX7oAWDn0/s400/detalles.PNG" height="400" width="348" /></a></td></tr></table>
 
 Desde esta pagina podremos ver los detalles de la Farmacia seleccionada, llamar por teléfono a la misma, posicionarla en el mapa, o dejar que el móvil calcule una ruta entre nuestra posición y la farmacia deseada.
-
