@@ -135,8 +135,13 @@ public class FarmaciaGuardiaNavarraData implements Runnable {
 			listener.startQuery();
 
 		try {
-			String url = "http://www.navarra.es/appsext/DescargarFichero/default.aspx?codigoAcceso=OpenData&fichero=GuardiasFarmacias/Guardias.xml";
+			
+			//API para el acceso al recurso guardias.xml en el harvester de datos abiertos http://192.168.10.81/8080
+			//String url = "http://192.168.10.81:8080/dataset/9c8d1690-3b3f-43f3-b264-1c9d193b283c/resource/edd6ffeb-37eb-442c-9efa-34b89072c398/download/guardias.xml"
 
+    		String url = "http://www.navarra.es/appsext/DescargarFichero/default.aspx?codigoAcceso=OpenData&fichero=GuardiasFarmacias/Guardias.xml";
+
+			
 			Log.d(TAG, url);
 			InputStream is = openHttpConnection(url);
 
