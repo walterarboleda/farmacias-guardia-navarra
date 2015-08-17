@@ -33,7 +33,12 @@ import android.util.Log;
 
 import com.google.android.maps.GeoPoint;
 
+
 public class FarmaciaGuardiaNavarraData implements Runnable {
+
+	// Clase que permite la lectura del recurso del catalogo de datos abiertos
+	//API para el acceso al recurso guardias.xml en el harvester de datos abiertos http://192.168.10.81/8080
+	//String url = "http://192.168.10.81:8080/dataset/9c8d1690-3b3f-43f3-b264-1c9d193b283c/resource/edd6ffeb-37eb-442c-9efa-34b89072c398/download/guardias.xml"
 
 	private static String TAG = "FarmaciasGuardiaNavarraData";
 	private static FarmaciaGuardiaNavarraData instance;
